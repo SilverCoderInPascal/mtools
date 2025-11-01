@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 296
+  Height = 410
+  Top = 250
+  Width = 433
+  Caption = 'Quotes'
+  ClientHeight = 410
+  ClientWidth = 433
+  LCLVersion = '4.99.0.0'
+  OnCreate = FormCreate
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 24
+    Width = 376
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Show me a Positive Quote'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 80
+    Top = 88
+    Width = 376
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Label1'
+    Font.Color = clCream
+    ParentFont = False
+    WordWrap = True
+  end
+  object btnPrev: TButton
+    Left = 32
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Prev'
+    TabOrder = 1
+    OnClick = btnPrevClick
+  end
+  object btnNext: TButton
+    Left = 112
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Next'
+    TabOrder = 2
+    OnClick = btnNextClick
+  end
+end
