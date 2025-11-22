@@ -70,7 +70,7 @@ begin
   // --- Appearance ---
   BorderColor := TColor($8C7884);
   BorderThickness := 1;
-  BarHeight := 40;
+  BarHeight := 30;
   BarWidth := 40;
 
   // --- Font ---

@@ -1,0 +1,59 @@
+object FrameQuotes: TFrameQuotes
+  Left = 0
+  Height = 417
+  Top = 0
+  Width = 535
+  ClientHeight = 417
+  ClientWidth = 535
+  Color = clDefault
+  LCLVersion = '4.99.0.0'
+  ParentBackground = False
+  ParentColor = False
+  TabOrder = 0
+  DesignLeft = 264
+  DesignTop = 28
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 24
+    Width = 480
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Show me a Positive Quote'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 256
+    Top = 88
+    Width = 480
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Label1'
+    Font.Color = clCream
+    Font.Height = -19
+    ParentFont = False
+    WordWrap = True
+  end
+  object btnPrev: TBitBtn
+    Left = 32
+    Height = 30
+    Top = 368
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Prev'
+    TabOrder = 1
+    OnClick = btnPrevClick
+  end
+  object btnNext: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 369
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Next'
+    Color = clBtnFace
+    TabOrder = 2
+    OnClick = btnNextClick
+  end
+end

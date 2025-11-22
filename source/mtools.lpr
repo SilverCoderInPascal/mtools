@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uMain, uQuotes
+  Forms, uMain, uQuotes, uframe_quotes, uframe_about, uframe_breathe, uframe_resettimer
   { you can add units after this };
 
 {$R *.res}

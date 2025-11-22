@@ -7,11 +7,10 @@
       <Unit>
         <Filename Value="mtools.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="12" Y="13"/>
+        <UsageCount Value="117"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="umain.pas"/>
@@ -20,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
-        <TopLine Value="51"/>
-        <CursorPos X="45" Y="56"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="60"/>
+        <CursorPos X="32" Y="71"/>
+        <UsageCount Value="117"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -30,150 +29,363 @@
         <Filename Value="uquotes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uQuotes"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="117"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_quotes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameQuotes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="34"/>
+        <CursorPos Y="82"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="41" Y="44"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_breathe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameBreathingExercise"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="69"/>
-        <CursorPos X="17" Y="85"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="7"/>
+        <CursorPos X="20" Y="20"/>
+        <UsageCount Value="70"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelph.inc"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="165"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="159"/>
         <CursorPos X="14" Y="178"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="43"/>
       </Unit>
       <Unit>
         <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelps.inc"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1327"/>
         <CursorPos X="3" Y="1352"/>
+        <UsageCount Value="44"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="670"/>
+        <CursorPos X="26" Y="691"/>
+        <UsageCount Value="43"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="185"/>
+        <CursorPos X="5" Y="199"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../frames_tutorial/umain.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="79"/>
+        <CursorPos Y="77"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ubreathing.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="244"/>
+        <CursorPos X="32" Y="164"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1151"/>
+        <CursorPos X="14" Y="1162"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2853"/>
+        <CursorPos X="10" Y="2863"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/classes/classes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1358"/>
+        <CursorPos X="3" Y="1363"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3548"/>
+        <CursorPos Y="3559"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/fpcsrc/packages/fcl-image/src/fpimage.pp"/>
+        <UnitName Value="FpImage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="3" Y="102"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/lazarus/lcl/intfgraphics.pas"/>
+        <UnitName Value="IntfGraphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="115"/>
+        <CursorPos X="3" Y="115"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgradefaultbitmap.pas"/>
+        <UnitName Value="BGRADefaultBitmap"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="562"/>
+        <CursorPos X="15" Y="571"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/inc/typshrdh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="137"/>
+        <CursorPos X="3" Y="104"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgrapixel.inc"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="352"/>
+        <CursorPos X="3" Y="345"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgragtkbitmap.pas"/>
+        <UnitName Value="BGRAGtkBitmap"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="15" Y="32"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uappsettings.pas"/>
+        <UnitName Value="uAppSettings"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="17" Y="73"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/geometrytypes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="966"/>
+        <CursorPos X="14" Y="978"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgraclasses.pas"/>
+        <UnitName Value="BGRAClasses"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_resettimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameCircularTimer"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="48"/>
+        <CursorPos X="43" Y="121"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/lazarus/lcl/include/canvas.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1771"/>
+        <CursorPos X="3" Y="1783"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/unibitmapgeneric.inc"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="121"/>
+        <CursorPos X="166" Y="131"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/inc/systemh.inc"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="670"/>
-        <CursorPos X="26" Y="691"/>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgracustombitmap.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="167"/>
+        <CursorPos X="15" Y="193"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgrabitmap.pas"/>
+        <UnitName Value="BGRABitmap"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="270"/>
+        <CursorPos X="9" Y="92"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="27">
+    <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="8" Column="9"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="22" Column="55" TopLine="9"/>
       </Position>
       <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="15" Column="24"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="133" Column="5" TopLine="115"/>
       </Position>
       <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="42" Column="3" TopLine="17"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="81" TopLine="80"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="30" TopLine="10"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="76" Column="41" TopLine="70"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="31" TopLine="10"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="69" Column="43" TopLine="65"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="32" TopLine="10"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="58" Column="42" TopLine="57"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="33" TopLine="10"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="39" Column="42" TopLine="25"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="35" TopLine="11"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="19" Column="15" TopLine="6"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="52" Column="22" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="54" Column="35" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelph.inc"/>
-        <Caret Line="180" Column="14" TopLine="168"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelph.inc"/>
-        <Caret Line="172" Column="15" TopLine="168"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelps.inc"/>
-        <Caret Line="1187" Column="3" TopLine="1184"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/objpas/sysutils/syshelph.inc"/>
-        <Caret Line="178" Column="14" TopLine="165"/>
-      </Position>
-      <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="21" Column="38" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="40" Column="4" TopLine="26"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="40" Column="13" TopLine="26"/>
       </Position>
       <Position>
         <Filename Value="umain.pas"/>
-        <Caret Line="55" Column="38" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../fpc-laz4/fpcsrc/rtl/inc/systemh.inc"/>
-        <Caret Line="691" Column="42" TopLine="679"/>
+        <Caret Line="69" TopLine="58"/>
       </Position>
       <Position>
         <Filename Value="umain.pas"/>
-        <Caret Line="55" Column="51" TopLine="34"/>
+        <Caret Line="70" TopLine="59"/>
       </Position>
       <Position>
         <Filename Value="umain.pas"/>
-        <Caret Line="56" Column="51" TopLine="35"/>
+        <Caret Line="71" Column="32" TopLine="60"/>
       </Position>
       <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="72" Column="15" TopLine="58"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="116" Column="63" TopLine="127"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="61" TopLine="39"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="62" Column="13" TopLine="44"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="63" Column="3" TopLine="39"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="81" Column="11" TopLine="70"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="26" Column="43" TopLine="22"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="82" Column="5" TopLine="71"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="80" TopLine="56"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="35" Column="10" TopLine="24"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="66" Column="25" TopLine="43"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="98" Column="7" TopLine="91"/>
       </Position>
       <Position>
-        <Filename Value="umain.pas"/>
-        <Caret Line="56" Column="45" TopLine="51"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="118" Column="34" TopLine="91"/>
       </Position>
       <Position>
-        <Filename Value="uquotes.pas"/>
-        <Caret Line="33" Column="14" TopLine="21"/>
+        <Filename Value="uframe_resettimer.pas"/>
+        <Caret Line="71" Column="3" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="355" Column="40" TopLine="347"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="355" Column="40" TopLine="347"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="311" Column="35" TopLine="300"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="356" Column="66" TopLine="309"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap/bgrapixel.inc"/>
+        <Caret Line="123" Column="12" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="313" Column="52" TopLine="309"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="314" Column="40" TopLine="326"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="342" Column="18" TopLine="341"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="355" Column="22" TopLine="295"/>
+      </Position>
+      <Position>
+        <Filename Value="uframe_breathe.pas"/>
+        <Caret Line="356" Column="58" TopLine="293"/>
       </Position>
     </JumpHistory>
     <RunParams>

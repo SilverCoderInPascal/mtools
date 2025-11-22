@@ -5,25 +5,28 @@ unit uMain;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  uQuotes;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
+  uframe_quotes, uframe_about, uframe_breathe, uframe_resettimer;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
-    Button1: TButton;
-    btnPrev: TButton;
-    btnNext: TButton;
-    Label1: TLabel;
-    procedure btnPrevClick(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
-    procedure btnNextClick(Sender: TObject);
+    btnAbout: TButton;
+    btnBreathExercise: TButton;
+    btnQuotes: TButton;
+    btnResetTimer: TButton;
+    PanelMenu: TPanel;
+    PanelContent: TPanel;
+    procedure btnAboutClick(Sender: TObject);
+    procedure btnResetTimerClick(Sender: TObject);
+    procedure btnBreathExerciseClick(Sender: TObject);
+    procedure btnQuotesClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
-    FQuotes: TQuoteList;
-    procedure DisplayQuote(AText: string);
+    FCurrentFrame: TFrame;
+    procedure LoadFrame(AFrame: TFrame);
   public
 
   end;
@@ -39,49 +42,45 @@ implementation
 
 uses Math;
 
+procedure TForm1.LoadFrame(AFrame: TFrame);
+begin
+  // Remove old frame if any
+  if Assigned(FCurrentFrame) then
+    FCurrentFrame.Free;
+
+  FCurrentFrame := AFrame;
+  FCurrentFrame.Parent := PanelContent;
+  FCurrentFrame.Align := alClient;
+  FCurrentFrame.Show;
+end;
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   Randomize;
-  FQuotes := TQuoteList.Create;
-  btnPrev.Enabled:= False;
-  btnNext.Enabled:= False;
-  Label1.Caption:= '';
+  FCurrentFrame := nil;
+  LoadFrame(TFrameAbout.Create(Self));
 end;
 
-procedure TForm1.DisplayQuote(AText: string);
-var
-  LQuote: TQuote;
+procedure TForm1.btnQuotesClick(Sender: TObject);
 begin
-  LQuote := TQuote.Create(AText);
-  Label1.Caption := LQuote.Text + #13#10 + '--' + LQuote.Author;
-  LQuote.Free;
+  LoadFrame(TFrameQuotes.Create(Self));
 end;
 
-procedure TForm1.Button1Click(Sender: TObject);
-var
-  LRandomQuote: String;
+procedure TForm1.btnResetTimerClick(Sender: TObject);
 begin
-  LRandomQuote := FQuotes.NextQuote(lpRandom);
-  DisplayQuote(LRandomQuote);
-  btnPrev.Enabled:= True;
-  btnNext.Enabled:= True;
+  LoadFrame(TFrameCircularTimer.Create(Self));
 end;
 
-procedure TForm1.btnPrevClick(Sender: TObject);
-var
-  LRandomQuote: String;
+procedure TForm1.btnAboutClick(Sender: TObject);
 begin
-  LRandomQuote := FQuotes.NextQuote(lpPrev);
-  DisplayQuote(LRandomQuote);
+  LoadFrame(TFrameAbout.Create(Self));
 end;
 
-procedure TForm1.btnNextClick(Sender: TObject);
-var
-  LRandomQuote: String;
+procedure TForm1.btnBreathExerciseClick(Sender: TObject);
 begin
-  LRandomQuote := FQuotes.NextQuote(lpNext);
-  DisplayQuote(LRandomQuote);
+  LoadFrame(TFrameBreathingExercise.Create(Self));
 end;
+
 
 end.
 

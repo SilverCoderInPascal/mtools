@@ -37,6 +37,7 @@
         <Filename Value="umain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
       </Unit>
@@ -44,6 +45,33 @@
         <Filename Value="uquotes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uQuotes"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_quotes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameQuotes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_breathe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameBreathingExercise"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uframe_resettimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameCircularTimer"/>
+        <ResourceBaseClass Value="Frame"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -54,6 +82,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="../../../fpc-laz4/config_lazarus/onlinepackagemanager/packages/BGRABitmap/bgrabitmap"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

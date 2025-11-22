@@ -1,51 +1,67 @@
 object Form1: TForm1
   Left = 296
-  Height = 410
+  Height = 515
   Top = 250
-  Width = 433
+  Width = 710
   Caption = 'Quotes'
-  ClientHeight = 410
-  ClientWidth = 433
+  ClientHeight = 515
+  ClientWidth = 710
   LCLVersion = '4.99.0.0'
   OnCreate = FormCreate
-  object Button1: TButton
-    Left = 32
-    Height = 25
-    Top = 24
-    Width = 376
-    Anchors = [akTop, akLeft, akRight]
-    Caption = 'Show me a Positive Quote'
+  object PanelMenu: TPanel
+    Left = 0
+    Height = 515
+    Top = 0
+    Width = 184
+    Align = alLeft
+    Caption = 'PanelMenu'
+    ClientHeight = 515
+    ClientWidth = 184
     TabOrder = 0
-    OnClick = Button1Click
+    object btnQuotes: TButton
+      Left = 16
+      Height = 25
+      Top = 8
+      Width = 152
+      Caption = 'Quotes'
+      TabOrder = 0
+      OnClick = btnQuotesClick
+    end
+    object btnResetTimer: TButton
+      Left = 16
+      Height = 25
+      Top = 72
+      Width = 152
+      Caption = 'Reset Timer'
+      TabOrder = 1
+      OnClick = btnResetTimerClick
+    end
+    object btnBreathExercise: TButton
+      Left = 16
+      Height = 25
+      Top = 40
+      Width = 152
+      Caption = 'Breathing Exercise'
+      TabOrder = 2
+      OnClick = btnBreathExerciseClick
+    end
+    object btnAbout: TButton
+      Left = 16
+      Height = 25
+      Top = 104
+      Width = 152
+      Caption = 'About'
+      TabOrder = 3
+      OnClick = btnAboutClick
+    end
   end
-  object Label1: TLabel
-    Left = 32
-    Height = 80
-    Top = 88
-    Width = 376
-    Anchors = [akTop, akLeft, akRight, akBottom]
-    AutoSize = False
-    Caption = 'Label1'
-    Font.Color = clCream
-    ParentFont = False
-    WordWrap = True
-  end
-  object btnPrev: TButton
-    Left = 32
-    Height = 25
-    Top = 184
-    Width = 75
-    Caption = 'Prev'
+  object PanelContent: TPanel
+    Left = 184
+    Height = 515
+    Top = 0
+    Width = 526
+    Align = alClient
+    Caption = 'PanelContent'
     TabOrder = 1
-    OnClick = btnPrevClick
-  end
-  object btnNext: TButton
-    Left = 112
-    Height = 25
-    Top = 184
-    Width = 75
-    Caption = 'Next'
-    TabOrder = 2
-    OnClick = btnNextClick
   end
 end
